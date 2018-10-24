@@ -129,3 +129,15 @@ After logging in, you will get this phpPgAdmin dashboard interface:
 ![photo6](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/7.png)
 
 The installation of PostgreSQL database with phpPgAdmin on ubuntu 18.04 has been completed successfully.
+
+
+# Resources
+
++ [Medium Content](https://medium.com/@Riverside/how-to-install-apache-php-postgresql-lapp-on-ubuntu-16-04-adb00042c45d)
++ [How to forge](https://www.howtoforge.com/tutorial/ubuntu-postgresql-installation/)
+
+# Conclusion
+
+PostgreSQL is an advanced object-relational database management system (ORDBMS). It is Open Source and has a large and active Community. PostgreSQL provides the psql command line program as primary front-end, which can be used to enter SQL queries directly or execute them from a file. phpPgAdmin is a web-based administration tool for PostgreSQL written in PHP that makes the administration of Postgres databases easier.
+
+![apache1](http://farm6.static.flickr.com/5064/5663284173_ded61414f2_o.jpg)
