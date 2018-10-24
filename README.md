@@ -47,10 +47,10 @@ $ sudo apt install php php-pgsql libapache2-mod-php
 ## 4: Install PostgreSQL
 
 ```bash
-$ sudo apt install postgresql libpq5 postgresql-9.5 postgresql-client-9.5 postgresql-client-common postgresql-contrib
+$ sudo apt install -y  postgresql libpq5 postgresql-9.5 postgresql-client-9.5 postgresql-client-common postgresql-contrib
 ```
 
-## 5:(Optional PhpPGAdmin)
+## 5:(Optional) PhpPGAdmin
 
 This is a User Interface based on providing an Admin Dashboard area
 
@@ -58,4 +58,30 @@ This is a User Interface based on providing an Admin Dashboard area
 $ sudo apt install phppgadmin
 ```
 
-## 6
+## 6:Configuring Apache Server
+
+You need to configure Apache virtual host configuration for phpPgAdmin.
+
+Goto the '/etc/apache2/conf-available' directory and edit the configuration file 'phppgadmin.conf' with nano by typing:
+
+```bash
+$ sudo nano /etc/apache2/conf-available/phppgadmin.conf
+```
+
+Comment out the line '#Require local' by adding a # in front of the line and add below the line allow from all so that you can access from your browser.
+
+```conf
+Require all granted
+```
+
+Save and exit.
+
+![photo1](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/2.png)
+
+## 7: Configure PHPPgAdmin
+
+Go to the '/etc/phppgadmin' directory and edit the configuration file 'config.inc.php' by typing :
+
+```bash
+$ cd /etc/phppgadmin/config.inc.php
+```
