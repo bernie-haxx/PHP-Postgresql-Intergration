@@ -55,5 +55,7 @@ $ sudo apt install postgresql libpq5 postgresql-9.5 postgresql-client-9.5 postgr
 This is a User Interface based on providing an Admin Dashboard area
 
 ```bash
-sudo apt install phppgadmin
+$ sudo apt install phppgadmin
 ```
+
+## 6
