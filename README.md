@@ -85,3 +85,13 @@ Go to the '/etc/phppgadmin' directory and edit the configuration file 'config.in
 ```bash
 $ cd /etc/phppgadmin/config.inc.php
 ```
+
+Find the line '$conf['extra_login_security'] = true;' and change the value to 'false' so you can login to phpPgAdmin with user postgres.
+
+```php
+$conf['extra_login_security'] = false;
+```
+
+Save and Exit.
+
+!][photo2](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/3.png)
