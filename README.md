@@ -119,3 +119,13 @@ $ sudo netstat -plntu
 Now access phpPgAdmin with your browser http://yourip/phppgadmin/.
 
 ![photo4](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/5.png)
+
+and then try login to with user 'postgres' and your password.
+
+![photo5](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/6.png)
+
+After logging in, you will get this phpPgAdmin dashboard interface:
+
+![photo6](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/7.png)
+
+The installation of PostgreSQL database with phpPgAdmin on ubuntu 18.04 has been completed successfully.
