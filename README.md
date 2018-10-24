@@ -95,3 +95,27 @@ $conf['extra_login_security'] = false;
 Save and Exit.
 
 !][photo2](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/3.png)
+
+Now restart the PostgreSQL and Apache2 services.
+
+```bash
+$ systemctl restart posqtgresql
+$ systemctl restart apache2
+```
+
+## 8: Testing Postgres
+
+By default, PostgreSQL is running on port '5432', and the Apache2 running on the default HTTP port '80'.
+
+Check using netstat command.
+
+```bash
+$ sudo netstat -plntu
+```
+
+![photo3](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/4.png)
+
+
+Now access phpPgAdmin with your browser http://yourip/phppgadmin/.
+
+![photo4](https://www.howtoforge.com/images/how_to_install_postgresql_and_phppgadmin_on_ubuntu_1804/5.png)
