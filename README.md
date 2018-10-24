@@ -7,11 +7,14 @@ L.A.P.P Intergration
 
 ## Introduction
 
-Welcome to an introduction on how to enable L.A.P.P intergration to your local machine.
+Welcome to an introduction on how to enable `L.A.P.P.`intergration to your local machine.
 
-This documentation is based on starting up the L.A.P.P. package which is based on:
+This documentation is based on starting up the `L.A.P.P.` package which is based on the following prerequisities:
+
+### Prerequisities
 
 + Installing [PHP]()
 + Having a Linux Distribution like [Ubuntu]()
 + Installing [Apache2]()
 + Installing [PostgrSQL]() and [PHPpgAdmin]().
+
